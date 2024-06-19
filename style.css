@@ -5,6 +5,7 @@
     font-family: "Inter", sans-serif;
 }
 :root{
+    --primarycolor: #1D1E25;
     --secondarycolor: #3870ff;
     --neutral: #7E8492;
 }
@@ -23,7 +24,7 @@
     width: 6.4%;
     height: 24px;
 }
-main{
+section{
     margin: 0 5.3%;
 }
 .introduction h1{
@@ -31,6 +32,7 @@ main{
     font-weight: 600;
     line-height: 120%;
     margin-bottom: 1rem;
+    color: var(--primarycolor);
 }
 .introduction h1 span{
     color: var(--secondarycolor);
@@ -45,23 +47,51 @@ main{
 .buttons{
     display: flex;
     gap: 3.2%;
-    justify-content: center;
     align-items: center;
-    
+    margin-bottom: 12px;
 }
-.button1 p{
-    background-color: var(--secondarycolor);
-    padding: 14px 16px;
-    font-family: Inter;
+.button1 p, .button2 p{
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
+}
+
+.button1 p{
+    background-color: var(--secondarycolor);
+    padding: 14px 16px;
     color: #fff;
 }
 .button2{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 8px;
-    border: 1px var(--neutral) solid;
-    padding: 14px 16px;
+    border: 1px #c2c2c2 solid;
+    height: 49px;
+    width: 180px;
+    text-align: center;
+}
+.button2 p{
+    color: var(--secondarycolor);
+}
+
+.stars{
+    display: flex;
+    gap: 9px;
+    color: #1D1E25;
+    font-weight: 500;
+    line-height: 26px; 
+}
+
+.lecture{
+    margin-top: 43px;
+    width: 100%;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondarycolor);
+    padding: 14px 0;
+    margin-top: 48px;
 }
