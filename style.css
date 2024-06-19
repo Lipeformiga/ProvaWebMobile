@@ -2,17 +2,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --secondarycolor: #3870ff;
+    --neutral: #7E8492;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 12px 5.3% 26px 5.3%;
-    width: 335px;
+    width: 89.3%;
 }
 .logo{
     width: 32%;
 }
 .hamburguer{
+    width: 6.4%;
+    height: 24px;
+}
+main{
+    margin: 0 5.3%;
+}
+.introduction h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 1rem;
+}
+.introduction h1 span{
+    color: var(--secondarycolor);
+}
+.introduction p{
+    color: var(--neutral);
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 2rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 3.2%;
+    justify-content: center;
+    align-items: center;
     
+}
+.button1 p{
+    background-color: var(--secondarycolor);
+    padding: 14px 16px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #fff;
+}
+.button2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px var(--neutral) solid;
+    padding: 14px 16px;
 }
