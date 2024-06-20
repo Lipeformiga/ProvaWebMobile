@@ -95,3 +95,43 @@ section{
     padding: 14px 0;
     margin-top: 48px;
 }
+
+.container2 h2{
+    margin-top: 56px;
+    color: var(--primarycolor);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    letter-spacing: -0.32px;
+}
+.information{
+    display: flex;
+    margin-top: 32px;
+    gap: 16px;
+}
+.information h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px; 
+    letter-spacing: -0.24px;
+    color: var(--secondarycolor);
+    margin-bottom: 12px;
+}
+.information h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    width: 162px;
+    margin-bottom: 8px;
+}
+.information p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--neutral);
+}
+
+.meeting{
+    
+}
+
