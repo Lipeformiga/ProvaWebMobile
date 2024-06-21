@@ -148,7 +148,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-top: 32px;
+    margin: 32px 0 56px 0;
 }
 .texts{
     display: flex;
@@ -159,4 +159,25 @@ section{
     color: var(--primarycolor);
     font-weight: 500;
     line-height: 26px;
+}
+.video2{
+    background-color: var(--secondarycolor);
+    
+    width: 100%;
+}
+.video2 p{
+    padding: 16px 5.3% 22px 5.3%;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FAFBFA;
+}
+.video2 h2{
+    padding: 56px 5.3% 0 5.3%;
+    text-align: center;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -0.32px;
+    color: #fff;
+    
 }
