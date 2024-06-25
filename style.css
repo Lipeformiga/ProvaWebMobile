@@ -183,7 +183,9 @@ section{
 .meet{
     margin: -129px 5.3% 0 5.3%;
 }
-
+.meet-img{
+    width: 100%;
+}
 .brains{
     display: flex;
     flex-direction: column;
@@ -209,3 +211,4 @@ section{
     line-height: 26px;
     margin-bottom: 8px;
 }
+
