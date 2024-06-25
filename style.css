@@ -162,7 +162,7 @@ section{
 }
 .video2{
     background-color: var(--secondarycolor);
-    
+    height: 569px;
     width: 100%;
 }
 .video2 p{
@@ -179,5 +179,21 @@ section{
     line-height: 120%;
     letter-spacing: -0.32px;
     color: #fff;
-    
+}
+.meet{
+    margin: -129px 5.3% 0 5.3%;
+}
+
+.brains{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 112px;
+}
+.speakers1 h3{
+    color: var(--secondarycolor);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 120%; 
+    letter-spacing: -0.32px;
 }
