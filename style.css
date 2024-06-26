@@ -26,13 +26,14 @@
 }
 section{
     margin: 0 5.3%;
+    color: var(--primarycolor);
 }
 .introduction h1{
     font-size: 40px;
     font-weight: 600;
     line-height: 120%;
     margin-bottom: 1rem;
-    color: var(--primarycolor);
+
 }
 .introduction h1 span{
     color: var(--secondarycolor);
@@ -132,7 +133,6 @@ section{
     color: var(--neutral);
 }
 #title-content{
-    color: var(--primarycolor);
     font-size: 32px;
     font-weight: 600;
     line-height: 38.4px;
@@ -156,7 +156,6 @@ section{
     gap: 16px;
 }
 .texts p{
-    color: var(--primarycolor);
     font-weight: 500;
     line-height: 26px;
 }
@@ -205,7 +204,6 @@ section{
     align-items: center;
 }
 .speakers2 h4{
-    color: var(--primarycolor);
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
@@ -238,4 +236,113 @@ section{
     color: #fff;
     font-weight: 600;
     line-height: 26px;
+}
+.alisa-content{
+    margin-top: 5.12rem;
+}
+.alisa-img{
+    width: 100%;
+}
+.alisa-text h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    margin-right: -0.6rem;
+
+}
+.alisa-text img{
+    margin: 2rem 0 2rem 0;
+}
+.alisa-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 1.5rem 0 0.25rem;
+}
+.alisa-text p{
+    color: var(--neutral);
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0.75rem;
+}
+.arrows{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 7.38rem;
+}
+.pricing h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-left: 1rem;
+}
+.pricing h2{
+    margin: 1rem 0 1rem 0;
+}
+.pricing p{
+    margin: 0 5.44rem 2rem 0;
+}
+
+.start1{
+    background-color: var(--secondarycolor);
+    padding: 14px 20px;
+    width: 187px;
+    border-radius: 100px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    line-height: 26px;
+}
+#first-start{
+    margin-bottom: 3.5rem;
+}
+.plans{
+    margin: 0 1.94rem 0 1.94rem;
+}
+#text-content2{
+    color: var(--neutral);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 1rem 0 2.5rem 0;
+}
+
+#start1-width{
+    width: 239px;
+    margin-bottom: 2.5rem;
+}
+.price{
+    display: flex;
+    gap: 0.25rem;
+}
+#price1{
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration-line: line-through;
+}
+#price2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+#month{
+    font-weight: 500;
+    line-height: 26px;
+}
+.percent{
+    margin: 0.5rem 0 2rem 0;
+}
+.include h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.plans-include{
+    display: flex;
+    gap: 0.5rem;
+}
+.include{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
