@@ -346,3 +346,17 @@ section{
     flex-direction: column;
     gap: 1rem;
 }
+.plans-include p{
+    font-weight: 500;
+    line-height: 26px;
+}
+.plan2{
+    margin-top: 3.5rem;
+}
+.plan3{
+    margin: 3.5rem 0 4.5rem 0;
+}
+.custom{
+    margin-bottom: 3.38rem;
+    margin-top: 1.12rem;
+}
