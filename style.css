@@ -18,11 +18,17 @@
     width: 89.3%;
 }
 .logo{
-    width: 32%;
+    width: 7.5rem;
 }
 .hamburguer{
-    width: 6.4%;
+    width: 24px;
     height: 24px;
+}
+.nav-header{
+    display: none;
+}
+.sign{
+    display: none;
 }
 section{
     margin: 0 5.3%;
@@ -94,7 +100,9 @@ section{
     padding: 14px 0;
     margin-top: 48px;
 }
-
+.sponsors-list2{
+    display: none;
+}
 .container2 h2{
     margin-top: 56px;
 }
@@ -359,4 +367,143 @@ section{
 .custom{
     margin-bottom: 3.38rem;
     margin-top: 1.12rem;
+}
+footer{
+    background-color: var(--secondarycolor);
+    padding-left: 1.25rem;
+    color: #fff;
+    height: 46.625rem;
+}
+
+.part1-footer h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    letter-spacing: -0.32px;
+    padding: 3.5rem 1.56rem 1.5rem 0;
+
+}
+.part1-footer img{
+    width: 46px;
+    height: 46px;
+}
+.pinpoint, .letter{
+    display: flex;
+    gap: 0.88rem;
+    margin-right: 2.19rem;
+    align-items: center;
+}
+.pinpoint p, .letter p{
+    font-weight: 400;
+    line-height: 26px
+}
+.letter{
+    margin-top: 1.5rem;
+}
+.Logo-footer{
+    margin: 2.5rem 13.44rem 2.5rem 0;
+}
+.nav-footer li{
+    display: flex;
+    gap: 2.56rem;
+    flex-wrap: wrap;
+}
+.nav-footer a{
+    font-weight: 500;
+    line-height: 26px;
+    color: #fff;
+    text-decoration: none;
+}
+.li-2{
+    margin: 1rem 0;
+}
+.line{
+    width: 85.33%;
+    height: 1px;
+    background-color: var(--neutral);
+    margin: 1.5rem 0;
+}
+.terms{
+    display: flex;
+    gap: 2.5rem;
+}
+.coca p{
+    margin-top: 1.5rem;
+    font-weight: 350;
+    line-height: 26px;
+}
+
+@media(min-width: 991px){
+    .nav-header{
+        display: block;
+    }
+    .links{
+        display: flex;
+        gap: 2rem;
+    }
+    .links li a{
+        text-decoration: none;
+        color: var(--primarycolor);
+        font-weight: 500;
+    line-height: 26px;
+    }
+    .links li{
+        list-style-type: none;
+    }
+    #home a{
+        color: var(--secondarycolor);
+    }
+    .hamburguer{
+        display: none;
+    }
+    .sign{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .sign p{
+        display: flex;
+        color: var(--primarycolor);
+        font-weight: 600;
+        line-height: 22px;
+    }
+    .sign-up{
+        border: 1px solid var(--primarycolor);
+        border-radius: 100px;
+        padding: 1rem 1.5rem;
+    }
+    .header{
+        margin: 1.5rem 5rem 1.5rem 5rem;
+    }
+    .sponsors-list2{
+        display: block;
+    }
+    .sponsors-list1{
+        display: none;
+    }
+    .container2{
+        display: flex;
+    }
+
+    .container2 img{
+        width: 538px;
+        height: 526px;
+    }
+    #title-content{
+        font-size: 56px;
+        line-height: 72.8px; 
+        letter-spacing: -1.12px;
+    }
+    .part1 h3, .part2 h3{
+    font-size: 56px;
+    line-height: 67.2px; 
+    letter-spacing: -0.56px;
+    }
+    .part1 p, .part2 p{
+        width: 280px;
+    }
+    .girls-meet{
+        width: 547px;
+        height: 531px;
+    }
 }
