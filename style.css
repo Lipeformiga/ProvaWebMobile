@@ -567,7 +567,10 @@ footer{
     }
 
     .employers-person img{
-        width: 20.56%;
+        width: 296px;
         
+    }
+    .employers{
+        display: flex;
     }
 }
