@@ -572,5 +572,6 @@ footer{
     }
     .employers{
         display: flex;
+        flex-wrap: wrap;
     }
 }
