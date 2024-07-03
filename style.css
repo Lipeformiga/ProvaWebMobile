@@ -432,8 +432,16 @@ footer{
     font-weight: 350;
     line-height: 26px;
 }
+.girls-meet2{
+    display: none;
+}
 
 @media(min-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .nav-header{
         display: block;
     }
@@ -483,11 +491,13 @@ footer{
     }
     .container2{
         display: flex;
+        margin-top: 7.5rem;
     }
 
     .container2 img{
         width: 538px;
         height: 526px;
+        margin-bottom: 0;
     }
     #title-content{
         font-size: 56px;
@@ -502,8 +512,62 @@ footer{
     .part1 p, .part2 p{
         width: 280px;
     }
-    .girls-meet{
+    .girls-meet2{
         width: 547px;
         height: 531px;
+        margin: 15rem 4rem 7.5rem 3.75rem;
+    }
+    .lecture{
+        width: 25.3rem;
+        height: 30.8rem;
+    }
+    .girls-meet2{
+        display: block;
+    }
+    .girls-meet{
+        display: none;
+    }
+    .section3{
+        display: flex;
+        flex-direction: row;
+    }
+    .union{
+        display: flex;
+        flex-direction: column;
+        margin-top: 16.65rem ;
+    }
+    .icons-text{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        
+    }
+    .icons-text p{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.6px;
+    }
+    .texts{
+        flex: 0 0 35%;
+    }
+    .texts img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    #title-content{
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 67.2px; 
+        letter-spacing: -0.56px
+    }
+    #text-content{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+
+    .employers-person img{
+        width: 20.56%;
+        
     }
 }
