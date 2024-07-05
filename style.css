@@ -204,12 +204,14 @@ section{
     font-size: 32px;
     font-weight: 600;
     letter-spacing: -0.32px;
+    margin-bottom: 2rem;
 }
 .speakers-content{
     display: flex;
     margin-top: 1.5rem;
     gap: 1.5rem;
     align-items: center;
+    justify-content: center;
 }
 .speakers2 h4{
     font-size: 16px;
@@ -435,7 +437,15 @@ footer{
 .girls-meet2{
     display: none;
 }
-
+#desktop-person{
+    display: none;
+}
+.alisa-img-desktop{
+    display: none;
+}
+.arrows-desktop{
+    display: none;
+}
 @media(min-width: 991px){
     *{
         margin: 0;
@@ -568,10 +578,64 @@ footer{
 
     .employers-person img{
         width: 296px;
-        
+        height: 261px;
     }
     .employers{
         display: flex;
         flex-wrap: wrap;
+        gap: 2rem;
+    }
+    #desktop-person{
+        display: block;
+    }
+    .employers-person {
+        margin: 0;
+    }
+    .employers-person p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.6px;
+    }
+    .desktop-division{
+        display: flex;
+        justify-content: space-between;
+    }
+    .alisa-img{
+        width: 576px;
+        height: 592px;
+    }
+    .alisa-img-desktop{
+        display: block;
+        margin-right: 3rem;
+    }
+    .alisa-img{
+        display: none;
+    }
+    .alisa-content{
+        display: flex;
+        margin-bottom: 194px;
+    }
+    
+    .alisa-text h3{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px; 
+    letter-spacing: -0.96px;
+    margin: 2rem 0 3rem 0;
+    }
+    .arrows {
+        display: none;
+    }
+    .alisa-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .arrows-desktop{
+        display: flex;
+        gap: 2rem;
+    }
+    /* falar com o kristian da hourglass */
+    .brains p{
+        width: 28.125rem;
     }
 }
