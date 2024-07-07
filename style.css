@@ -533,6 +533,8 @@ footer{
     }
     .girls-meet2{
         display: block;
+        width: 100%;
+        flex: 1 1 30%;
     }
     .girls-meet{
         display: none;
@@ -550,15 +552,17 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
         gap: 2rem;
-        
+        width: 100%;
     }
     .icons-text p{
         font-size: 18px;
         font-weight: 600;
         line-height: 21.6px;
+        
     }
     .texts{
-        flex: 0 0 35%;
+        flex: 1 0 35%;
+        width: 100%;
     }
     .texts img{
         width: 1.5rem;
@@ -620,11 +624,11 @@ footer{
     }
     
     .alisa-text h3{
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 60px; 
-    letter-spacing: -0.96px;
-    margin: 2rem 0 3rem 0;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 60px; 
+        letter-spacing: -0.96px;
+        margin: 2rem 0 3rem 0;
     }
     .arrows {
         display: none;
