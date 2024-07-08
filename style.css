@@ -309,6 +309,13 @@ section{
 .plans{
     margin: 0 1.94rem 0 1.94rem;
 }
+.plans h2{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:  38.4px; /* */
+    letter-spacing: -0.32px;
+}
 #text-content2{
     color: var(--neutral);
     font-size: 18px;
@@ -446,6 +453,22 @@ footer{
 .arrows-desktop{
     display: none;
 }
+.meet-desktop-img{
+    display: none;
+}
+.see-more2{
+    display: none;
+    background-color: var(--secondarycolor);
+    padding: 14px 20px;
+    width: 142px;
+    text-align: center;
+    border-radius: 100px;
+}
+.see-more2 a{
+    color: #fff;
+    font-weight: 600;
+    line-height: 26px;
+}
 @media(min-width: 991px){
     *{
         margin: 0;
@@ -495,6 +518,7 @@ footer{
     }
     .sponsors-list2{
         display: block;
+        width: 88.88%;
     }
     .sponsors-list1{
         display: none;
@@ -504,11 +528,7 @@ footer{
         margin-top: 7.5rem;
     }
 
-    .container2 img{
-        width: 538px;
-        height: 526px;
-        margin-bottom: 0;
-    }
+    
     #title-content{
         font-size: 56px;
         line-height: 72.8px; 
@@ -588,6 +608,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
+        margin-bottom: 240px;
     }
     #desktop-person{
         display: block;
@@ -606,6 +627,28 @@ footer{
     }
     .brains p{
         width: 28.125rem;
+        
+    }
+    .speakers1 h3{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px; 
+        letter-spacing: -0.96px;
+    }
+    .speakers-content{
+        position: relative;
+    }
+    .see-more{
+        display: none;
+    }
+    .see-more2{
+        display: block;
+        position: absolute;
+        margin-left: 53rem;
+    }
+    .flex-desktop{
+        margin-bottom: 3.5rem;
+        display: flex;
     }
     .alisa-img{
         width: 576px;
@@ -642,5 +685,78 @@ footer{
         gap: 2rem;
     }
     /* falar com o kristian da hourglass e acabar o brains*/
-    
+    /* section your chance*/
+    .meet-desktop-img{
+        display: block;
+        width: 100%;
+    }
+    .meet{
+        margin: -250px 9.81rem 0 9.81rem;
+    }
+    .meet-img{
+        display: none;
+    }
+    .video2{
+        height: 660px;
+    }
+    .video2 p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+        padding: 1.5rem 14rem 3.5rem 14rem;
+    }
+    .video2 h2{
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: -1.12px;
+        padding: 7.5rem 9.37rem 0 9.44rem;
+    }
+    .container2-media{
+        flex: 4;
+    }
+    .part3{
+        flex: 3;
+    }
+    .meeting{
+        width: 100%;
+        border-radius: 8px;
+    }
+    /* next */
+    .last-section{
+        display: flex;
+        margin-top: 15rem;
+    }
+    .plans{
+        display: flex;
+        margin: 0 4.25rem 7.56rem 5rem;
+        gap: 1.12rem;
+    }
+    .union-pricing{
+        order: 1;
+    }
+    .plans h2{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38.4px; 
+        letter-spacing: -0.32px;
+    }
+    .teste{
+        width: 272px;
+    }
+    .plan2, .plan3{
+        margin: 0;
+    }
+    .pricing h2{
+        width: 300px;
+    }
+    .last-section{
+        margin: 0;
+    }
+    /* acabar  last section */
 }
+@media(max-width: 1048px){
+    .see-more2{
+        margin-left: 40rem;
+    }
+    
