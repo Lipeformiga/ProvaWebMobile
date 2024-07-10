@@ -284,7 +284,10 @@ section{
     font-size: 14px;
     font-weight: 600;
     line-height: 21px;
-    margin-left: 1rem;
+    background-color: rgba(147, 107, 255, 0.08);
+    width: 5rem;
+    padding: 0.38rem 1rem;
+    border-radius: 6.25rem;
 }
 .pricing h2{
     margin: 1rem 0 1rem 0;
@@ -469,7 +472,11 @@ footer{
     font-weight: 600;
     line-height: 26px;
 }
-@media(min-width: 991px){
+.popular{
+    display: none;
+}
+
+@media(min-width: 1024px){
     *{
         margin: 0;
         padding: 0;
@@ -527,17 +534,15 @@ footer{
         display: flex;
         margin-top: 7.5rem;
     }
-
-    
     #title-content{
         font-size: 56px;
         line-height: 72.8px; 
         letter-spacing: -1.12px;
     }
     .part1 h3, .part2 h3{
-    font-size: 56px;
-    line-height: 67.2px; 
-    letter-spacing: -0.56px;
+        font-size: 56px;
+        line-height: 67.2px; 
+        letter-spacing: -0.56px;
     }
     .part1 p, .part2 p{
         width: 280px;
@@ -651,6 +656,7 @@ footer{
         display: flex;
     }
     .alisa-img{
+        display: none;
         width: 576px;
         height: 592px;
     }
@@ -658,12 +664,10 @@ footer{
         display: block;
         margin-right: 3rem;
     }
-    .alisa-img{
-        display: none;
-    }
     .alisa-content{
         display: flex;
         margin-bottom: 194px;
+        
     }
     
     .alisa-text h3{
@@ -671,10 +675,11 @@ footer{
         font-weight: 500;
         line-height: 60px; 
         letter-spacing: -0.96px;
-        margin: 2rem 0 3rem 0;
+        margin: 2rem 7rem 3rem 0;
     }
     .arrows {
         display: none;
+      
     }
     .alisa-flex{
         display: flex;
@@ -683,9 +688,8 @@ footer{
     .arrows-desktop{
         display: flex;
         gap: 2rem;
+        
     }
-    /* falar com o kristian da hourglass e acabar o brains*/
-    /* section your chance*/
     .meet-desktop-img{
         display: block;
         width: 100%;
@@ -734,6 +738,7 @@ footer{
     }
     .union-pricing{
         order: 1;
+        width: 100%;
     }
     .plans h2{
         font-size: 32px;
@@ -748,15 +753,81 @@ footer{
         margin: 0;
     }
     .pricing h2{
-        width: 300px;
+        font-size: 48px;    
+        font-weight: 600;
+        line-height: 57.6px;
+        letter-spacing: -0.48px;
+    }
+    .pricing p{
+        margin: 1rem 12rem 2.5rem 0;
+    }
+    .pricing h5{
+       
+        margin: 0;
     }
     .last-section{
         margin: 0;
     }
-    /* acabar  last section */
+    .popular{
+        display: flex;
+        margin: 0 0 0.5rem 32.62rem;
+    }
+    .popular p{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 2.69rem;
+    }
+    .part1-footer h2{
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 76.8px;
+        letter-spacing: -1px;
+        padding: 0;
+    }
+    .part1-footer{
+        display: flex;
+        padding: 5.47rem 7rem 0 7rem;
+        
+    }
+    .flex-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .part2-footer{
+        display: flex;
+        justify-content: space-between;
+        margin: 5rem 7rem 2.56rem 7rem;
+    }
+    .Logo-footer{
+        margin: 0;
+    }
+    .social-media{
+        display: block;
+        height: 20px;
+    }
+    .ul-footer{
+        display: flex;
+    }
+    .li-2{
+        margin: 0;
+        margin-left: 2.5rem;
+    }
+    .line{
+        display: flex;
+        width: 83.958%;
+        margin: 0;
+    }
+    /* arrumar o premium o footer o começo arrummar a margim do video pra baixo e o thing you learn */
 }
 @media(max-width: 1048px){
     .see-more2{
         margin-left: 40rem;
     }
     
+}
+@media(max-width: 1290px){
+    .plans{
+       flex-direction: column;
+    }
+}
