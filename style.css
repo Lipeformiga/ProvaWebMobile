@@ -465,8 +465,12 @@ footer{
     .mobile, .hamburguer, .girls-meet{
         display: none;
     }
-    .part1-desktop, .part2-desktop, .part3-desktop, .nav-header{
+    .nav-header{
         display: block;
+    }
+    .part1-desktop, .part2-desktop, .part3-desktop{
+        display: flex;
+        flex-direction: column;
     }
     .links{
         display: flex;
@@ -508,19 +512,23 @@ footer{
     }
     .container-desktop{
         display: flex;
+        
     }   
+    .part1-desktop, .part2-desktop, .part3-desktop{
+        flex: 1 1;
+    }
     .part1-desktop img{
-        width: 405px;
+        width: 75%;
         height: 495px;
         margin: 5rem 5.38rem 1.5rem 3rem;
     }
+    
     .part1-desktop p{
         width: 405px;
         margin: 0 5.38rem 5.56rem 3rem;
     }
     .part2-desktop h1{
         font-size: 4.5rem;
-        font-style: normal;
         font-weight: 600;
         line-height: 5.4rem; 
         letter-spacing: -0.18rem;
@@ -892,10 +900,14 @@ footer{
     .plans{
        flex-direction: column;
     }
+    .container-desktop{
+        flex-wrap: wrap;
+    }
 }
 @media(max-width: 1420px){
     .container-desktop{
         flex-wrap: wrap;
     }
+    
     
 }
