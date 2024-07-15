@@ -784,11 +784,12 @@ footer{
         line-height: 76.8px;
         letter-spacing: -1px;
         padding: 0;
+        width: 100%;
     }
     .part1-footer{
         display: flex;
         padding: 5.47rem 7rem 0 7rem;
-        
+        gap: 8.38rem;
     }
     .flex-footer{
         display: flex;
@@ -798,6 +799,7 @@ footer{
         display: flex;
         justify-content: space-between;
         margin: 5rem 7rem 2.56rem 7rem;
+        align-items: center;
     }
     .Logo-footer{
         margin: 0;
@@ -816,7 +818,33 @@ footer{
     .line{
         display: flex;
         width: 83.958%;
+        margin: 2.56rem 7.22rem 2.5rem 7.22rem;
+        height: 2px;
+    }
+    .pinpoint p{
+        width: 260px;
+    }
+    .custom{
+        margin-bottom: 4.37rem;
+    }
+    .terms-content{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 7.38rem 0 7.5rem;
+    }
+    .terms{
+        order: 1;
+    }
+    footer{
+        height: 32.875rem;
+    }
+    .coca p{
         margin: 0;
+    }
+    footer{
+        background-image: url(/images/c.svg);
+        background-repeat: no-repeat;
+        background-position: 93.4%;
     }
     /* arrumar o premium o footer o começo arrummar a margim do video pra baixo e o thing you learn */
 }
