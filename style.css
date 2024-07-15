@@ -512,11 +512,11 @@ footer{
     .part1-desktop img{
         width: 405px;
         height: 495px;
-        margin: 5rem 5.38rem 1.5rem 5rem;
+        margin: 5rem 5.38rem 1.5rem 3rem;
     }
     .part1-desktop p{
         width: 405px;
-        margin: 0 5.38rem 5.56rem 5rem;
+        margin: 0 5.38rem 5.56rem 3rem;
     }
     .part2-desktop h1{
         font-size: 4.5rem;
@@ -889,5 +889,10 @@ footer{
 @media(max-width: 1290px){
     .plans{
        flex-direction: column;
+    }
+}
+@media(max-width: 1424px){
+    .container-desktop{
+        flex-wrap: wrap;
     }
 }
