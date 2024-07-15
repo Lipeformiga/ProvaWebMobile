@@ -41,7 +41,7 @@ section{
     margin-bottom: 1rem;
 
 }
-.introduction h1 span{
+.introduction h1 span, .part2-desktop h1 span{
     color: var(--secondarycolor);
 }
 .introduction p{
@@ -444,21 +444,6 @@ footer{
     font-weight: 350;
     line-height: 26px;
 }
-.girls-meet2{
-    display: none;
-}
-#desktop-person{
-    display: none;
-}
-.alisa-img-desktop{
-    display: none;
-}
-.arrows-desktop{
-    display: none;
-}
-.meet-desktop-img{
-    display: none;
-}
 .see-more2{
     display: none;
     background-color: var(--secondarycolor);
@@ -472,17 +457,15 @@ footer{
     font-weight: 600;
     line-height: 26px;
 }
-.popular{
+.popular, .part1-desktop, .part2-desktop, .part3-desktop, .meet-desktop-img, .arrows-desktop, .alisa-img-desktop, #desktop-person, .girls-meet2{
     display: none;
 }
 
 @media(min-width: 1024px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+    .mobile, .hamburguer, .girls-meet{
+        display: none;
     }
-    .nav-header{
+    .part1-desktop, .part2-desktop, .part3-desktop, .nav-header{
         display: block;
     }
     .links{
@@ -501,13 +484,13 @@ footer{
     #home a{
         color: var(--secondarycolor);
     }
-    .hamburguer{
-        display: none;
-    }
     .sign{
         display: flex;
         gap: 1rem;
         align-items: center;
+    }
+    .stars img{
+        width: 116px;
     }
     .sign p{
         display: flex;
@@ -523,6 +506,59 @@ footer{
     .header{
         margin: 1.5rem 5rem 1.5rem 5rem;
     }
+    .container-desktop{
+        display: flex;
+    }
+    .part1-desktop img{
+        width: 405px;
+        height: 495px;
+        margin: 5rem 5.38rem 1.5rem 5rem;
+    }
+    .part1-desktop p{
+        width: 405px;
+        margin: 0 5.38rem 5.56rem 5rem;
+    }
+    .part2-desktop h1{
+        font-size: 4.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 5.4rem; 
+        letter-spacing: -0.18rem;
+        margin: 5.62rem 0 3rem 0;
+    }
+    .buttons-desktop{
+        display: flex;
+        gap: 2rem;
+    }
+    .stars{
+        margin-top: 1.5rem;
+    }
+    .guys-content{
+        display: flex;
+        gap: 1rem;
+    }
+    .guys-content h3{
+        color: var(--secondarycolor);
+    }
+    .guys-info p{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px; 
+        letter-spacing: -1px;
+    }
+    .meet-content img{
+        margin: 6.19rem 5rem 0.5rem 0;
+    }
+    .meet-content p{
+        font-weight: 700;
+        line-height: 26px;
+        color: var(--neutral);
+        margin-bottom: 18.81rem;
+    }
+    .button1, .button2{
+        width: 12.125rem;
+        text-align: center;
+    }   
     .sponsors-list2{
         display: block;
         width: 88.88%;
@@ -560,9 +596,6 @@ footer{
         display: block;
         width: 100%;
         flex: 1 1 30%;
-    }
-    .girls-meet{
-        display: none;
     }
     .section3{
         display: flex;
@@ -851,8 +884,7 @@ footer{
 @media(max-width: 1048px){
     .see-more2{
         margin-left: 40rem;
-    }
-    
+    } 
 }
 @media(max-width: 1290px){
     .plans{
