@@ -14,8 +14,6 @@ Essa página descreve um evento digital da plataforma Coca Pay, com um cabeçalh
 
 * Filipe Formigari
 
-![Autor](</images/Lipe.png>)
-
 
 ## Sobre mim
 
