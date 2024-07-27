@@ -874,12 +874,13 @@ footer{
         display: flex;
         justify-content: space-between;
         margin: 0 7.38rem 0 7.5rem;
+        padding-bottom: 2.5rem;
     }
     .terms{
         order: 1;
     }
     footer{
-        height: 32.875rem;
+        height: 100%;
     }
     .coca p{
         margin: 0;
@@ -904,7 +905,7 @@ footer{
         flex-wrap: wrap;
     }
 }
-@media(max-width: 1420px){
+@media(max-width: 1428px){
     .container-desktop{
         flex-wrap: wrap;
     }
